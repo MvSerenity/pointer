@@ -7,8 +7,8 @@ int main()
    scanf("%d%d", &x, &y);
    printf("Before Swapping\nx = %d\ny = %d\n", x, y);
  
-   *a = &x;
-   *b = &y;
+   a = &x;
+   b = &y;
  
    temp = *b;
    *b = *a;
